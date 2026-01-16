@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body text-ink bg-mist;
+}
+
+.noise {
+  background-image: radial-gradient(circle at 20% 20%, rgba(255, 107, 74, 0.12), transparent 55%),
+    radial-gradient(circle at 80% 10%, rgba(29, 78, 216, 0.14), transparent 50%),
+    radial-gradient(circle at 70% 80%, rgba(18, 165, 148, 0.18), transparent 60%);
+}
