@@ -19,7 +19,7 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 
 全局底线约束
 - 所有沟通、代码注释、文档**统一使用中文**；新文件使用 UTF-8（无 BOM）。
-- **禁止一切 CI/CD 自动化**；构建、测试、发布必须人工操作。
+- **推荐使用CI/CD 自动化**；构建、测试、发布。
 - **默认最小变更边界**：  
   - 不主动扩展需求  
   - 不顺手重构无关代码  
